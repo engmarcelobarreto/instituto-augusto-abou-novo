@@ -33,14 +33,15 @@ a{ color: var(--brand-dark); }
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(10px);
 }
-.brand-lockup{ display:flex; align-items:center; gap:.6rem; text-decoration:none; }
-.brand-lockup img{ height: 40px; }
+.brand-lockup{ display:flex; align-items:center; gap:.75rem; text-decoration:none; }
+.brand-lockup img{ height: 58px; }
 .brand-lockup span{
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 1.15rem;
+  font-size: 1.55rem;
   color: var(--text);
-  letter-spacing: -.2px;
+  letter-spacing: -.3px;
+  line-height: 1.1;
 }
 .navbar .nav-link{
   font-weight: 700;
@@ -60,7 +61,7 @@ a{ color: var(--brand-dark); }
 .navbar-toggler{ border-color: var(--line) !important; box-shadow:none !important; }
 
 /* Layout helpers */
-.anchor{ scroll-margin-top: 96px; }
+.anchor{ scroll-margin-top: 108px; }
 .section{ padding: 76px 0; }
 .section-title{ letter-spacing: -.5px; line-height: 1.15; }
 .eyebrow{
