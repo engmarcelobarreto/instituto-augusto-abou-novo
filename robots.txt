@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://institutoaugustoabou.org.br/sitemap.xml
